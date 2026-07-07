@@ -168,6 +168,11 @@ ul{
 }
 
 
+.what-i-do-parent h2{
+    margin-bottom: 30px;
+}
+
+
 /* my Amazing Work section CSS */
 
 .my-amazing-work{
@@ -213,4 +218,72 @@ ul{
 }
 .box-6{
     grid-area: six;
+}
+
+
+/* Footer section CSS */
+
+.footer-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+/* .footer-parent .footer-left{
+    margin-bottom: 20px;
+    padding: 50px 20px;
+    text-align: center;
+    align-items: center;
+} */
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.footer-left p{
+    margin: 20px 0;
+}
+
+
+.footer-parent .footer-right{
+    margin-bottom: 20px;
+    padding: 50px 20px;
+    text-align: center;
+    display: block;
+}
+
+
+/* .footer-right .footer-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  margin-top: 20px;
+
+} */
+
+.footer-right .footer-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.footer-form button{
+     background-color: #FD6E0A;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+
 }
